@@ -129,8 +129,7 @@ class RNNCellOp(operation):
         """
         output = None
         ###############################################
-        # code here
-       
+        
         x, prev_h = inputs
         U = kernel 
         W = recurrent_kernel
@@ -165,7 +164,7 @@ class RNNCellOp(operation):
         r_kernel_grad = None
         b_grad = None
         ###############################################
-        # code here
+    
         x, prev_h = inputs
         x = np.nan_to_num(x)
         
