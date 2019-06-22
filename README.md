@@ -1,7 +1,4 @@
-# cs5242
-CS5242 Assignments of NUS
 
-## requirements
 ### python version
 - python3
 
