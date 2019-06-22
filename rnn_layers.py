@@ -545,7 +545,7 @@ class BidirectionalRNN(Layer):
         """
         in_grad = None
         ###############################################
-        # code here
+        
         
         mask = ~np.any(np.isnan(inputs), axis=2)
         N, T, H = out_grad.shape
